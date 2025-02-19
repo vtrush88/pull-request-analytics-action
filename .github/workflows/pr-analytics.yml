@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: "Generate a token"
         id: generate-token
-        uses: vtrush88/github-actions/generate-github-token@main
+        uses: vtrush88/github-actions/generate-github-token@057a7c2c543040782d65fd823f917a7d4ccc8460
         with:
           app_id: ${{ vars.APP_ID }}
           private_key: ${{ secrets.APP_PRIVATE_KEY }}
